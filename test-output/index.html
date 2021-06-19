@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.simplogics.testcases.CreateJewllery_Invoice" class="method navigator-link" hash-for-method="Createjewllery_Invoice(TestInvoiceg, Test_2, 25.0, 250.0, 12.25, 100.0, 100.0, 3.5)">Createjewllery_Invoice(TestInvoiceg, Test_2, 25.0, 250.0, 12.25, 100.0, 100.0, 3.5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.simplogics.testcases.Invalid_Login" class="method navigator-link" hash-for-method="InvalidLogin(minni, Power123)">InvalidLogin(minni, Power123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.simplogics.testcases.InvoiceJewllery_Edit" class="method navigator-link" hash-for-method="Invoicejewllery_Edit">Invoicejewllery_Edit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.simplogics.testcases.InvoiceJwellery_CheckboxDisable" class="method navigator-link" hash-for-method="Invoicejwellery_CheckboxDisable(Testinvoicegtf, Test_2, 25.0, 250.0, 100.0, 100.0, 100.0, 3.0)">Invoicejwellery_CheckboxDisable(Testinvoicegtf, Test_2, 25.0, 250.0, 100.0, 100.0, 100.0, 3.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.simplogics.testcases.InvoiceJwellery_Negative" class="method navigator-link" hash-for-method="Invoicejwellery_Negative(Testinvoicegu, Test_1, 25.0, 250.0, 100.0, -300.0, 100.0, 2.0)">Invoicejwellery_Negative(Testinvoicegu, Test_1, 25.0, 250.0, 100.0, -300.0, 100.0, 2.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.simplogics.testcases.Purchasemanagement_Menu" class="method navigator-link" hash-for-method="Purchasemanagement_menu">Purchasemanagement_menu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.simplogics.testcases.Verifycheckbox_conditions" class="method navigator-link" hash-for-method="VerifyCheckbox_conditions(Test1_Invoice04, Test_2, 25.0, 250.0, 100.0, 100.0, 100.0, 3.0)">VerifyCheckbox_conditions(Test1_Invoice04, Test_2, 25.0, 250.0, 100.0, 100.0, 100.0, 3.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.simplogics.testcases.Verifycontents_Editpage" class="method navigator-link" hash-for-method="VerifyContents_Editpage">VerifyContents_Editpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.simplogics.testcases.Loginpage" class="method navigator-link" hash-for-method="loginpage(elmo_goh, -287854.0, Y)">loginpage(elmo_goh, -287854.0, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplogics.testcases.Verifycontents_Editpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyContents_Editpage">
+                  </a> <!-- VerifyContents_Editpage -->
+                  <span class="method-name">VerifyContents_Editpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplogics.testcases.Purchasemanagement_Menu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Purchasemanagement_menu">
+                  </a> <!-- Purchasemanagement_menu -->
+                  <span class="method-name">Purchasemanagement_menu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplogics.testcases.InvoiceJwellery_CheckboxDisable</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invoicejwellery_CheckboxDisable(Testinvoicegtf, Test_2, 25.0, 250.0, 100.0, 100.0, 100.0, 3.0)">
+                  </a> <!-- Invoicejwellery_CheckboxDisable(Testinvoicegtf, Test_2, 25.0, 250.0, 100.0, 100.0, 100.0, 3.0) -->
+                  <span class="method-name">Invoicejwellery_CheckboxDisable</span>
+                  <span class="parameters">(Testinvoicegtf, Test_2, 25.0, 250.0, 100.0, 100.0, 100.0, 3.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplogics.testcases.Loginpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginpage(elmo_goh, -287854.0, Y)">
+                  </a> <!-- loginpage(elmo_goh, -287854.0, Y) -->
+                  <span class="method-name">loginpage</span>
+                  <span class="parameters">(elmo_goh, -287854.0, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplogics.testcases.InvoiceJewllery_Edit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invoicejewllery_Edit">
+                  </a> <!-- Invoicejewllery_Edit -->
+                  <span class="method-name">Invoicejewllery_Edit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplogics.testcases.InvoiceJwellery_Negative</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Invoicejwellery_Negative(Testinvoicegu, Test_1, 25.0, 250.0, 100.0, -300.0, 100.0, 2.0)">
+                  </a> <!-- Invoicejwellery_Negative(Testinvoicegu, Test_1, 25.0, 250.0, 100.0, -300.0, 100.0, 2.0) -->
+                  <span class="method-name">Invoicejwellery_Negative</span>
+                  <span class="parameters">(Testinvoicegu, Test_1, 25.0, 250.0, 100.0, -300.0, 100.0, 2.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplogics.testcases.Invalid_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidLogin(minni, Power123)">
+                  </a> <!-- InvalidLogin(minni, Power123) -->
+                  <span class="method-name">InvalidLogin</span>
+                  <span class="parameters">(minni, Power123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplogics.testcases.CreateJewllery_Invoice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Createjewllery_Invoice(TestInvoiceg, Test_2, 25.0, 250.0, 12.25, 100.0, 100.0, 3.5)">
+                  </a> <!-- Createjewllery_Invoice(TestInvoiceg, Test_2, 25.0, 250.0, 12.25, 100.0, 100.0, 3.5) -->
+                  <span class="method-name">Createjewllery_Invoice</span>
+                  <span class="parameters">(TestInvoiceg, Test_2, 25.0, 250.0, 12.25, 100.0, 100.0, 3.5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplogics.testcases.Verifycheckbox_conditions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCheckbox_conditions(Test1_Invoice04, Test_2, 25.0, 250.0, 100.0, 100.0, 100.0, 3.0)">
+                  </a> <!-- VerifyCheckbox_conditions(Test1_Invoice04, Test_2, 25.0, 250.0, 100.0, 100.0, 100.0, 3.0) -->
+                  <span class="method-name">VerifyCheckbox_conditions</span>
+                  <span class="parameters">(Test1_Invoice04, Test_2, 25.0, 250.0, 100.0, 100.0, 100.0, 3.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/tmp/testng-eclipse-1278996895/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.simplogics.utilities.TestUtil&quot;/&gt;
+      &lt;class name=&quot;com.simplogics.testcases.Verifycontents_Editpage&quot;/&gt;
+      &lt;class name=&quot;com.simplogics.testcases.InvoiceJwellery_Negative&quot;/&gt;
+      &lt;class name=&quot;com.simplogics.testcases.InvoiceJwellery_CheckboxDisable&quot;/&gt;
+      &lt;class name=&quot;com.simplogics.testcases.Loginpage&quot;/&gt;
+      &lt;class name=&quot;com.simplogics.base.BaseData&quot;/&gt;
+      &lt;class name=&quot;com.simplogics.base.Email&quot;/&gt;
+      &lt;class name=&quot;com.simplogics.testcases.Purchasemanagement_Menu&quot;/&gt;
+      &lt;class name=&quot;com.simplogics.testcases.Verifycheckbox_conditions&quot;/&gt;
+      &lt;class name=&quot;com.simplogics.testcases.InvoiceJewllery_Edit&quot;/&gt;
+      &lt;class name=&quot;com.simplogics.testcases.CreateJewllery_Invoice&quot;/&gt;
+      &lt;class name=&quot;com.simplogics.testcases.Invalid_Login&quot;/&gt;
+      &lt;class name=&quot;com.simplogics.utilities.ExcelReader&quot;/&gt;
+      &lt;class name=&quot;com.simplogics.testcases.CreateJewellery_Invoice_Validdata&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (14 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Createjewllery_Invoice')
+data.setCell(0, 2, 'com.simplogics.testcases.CreateJewllery_Invoice')
+data.setCell(0, 3, 72488);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Invoicejwellery_CheckboxDisable')
+data.setCell(1, 2, 'com.simplogics.testcases.InvoiceJwellery_CheckboxDisable')
+data.setCell(1, 3, 60907);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Invoicejwellery_Negative')
+data.setCell(2, 2, 'com.simplogics.testcases.InvoiceJwellery_Negative')
+data.setCell(2, 3, 60515);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyCheckbox_conditions')
+data.setCell(3, 2, 'com.simplogics.testcases.Verifycheckbox_conditions')
+data.setCell(3, 3, 54888);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyContents_Editpage')
+data.setCell(4, 2, 'com.simplogics.testcases.Verifycontents_Editpage')
+data.setCell(4, 3, 26647);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginpage')
+data.setCell(5, 2, 'com.simplogics.testcases.Loginpage')
+data.setCell(5, 3, 25606);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Invoicejewllery_Edit')
+data.setCell(6, 2, 'com.simplogics.testcases.InvoiceJewllery_Edit')
+data.setCell(6, 3, 12749);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'InvalidLogin')
+data.setCell(7, 2, 'com.simplogics.testcases.Invalid_Login')
+data.setCell(7, 3, 11362);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Purchasemanagement_menu')
+data.setCell(8, 2, 'com.simplogics.testcases.Purchasemanagement_Menu')
+data.setCell(8, 3, 5686);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">11 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplogics.testcases.Verifycontents_Editpage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Emailsend</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplogics.testcases.CreateJewellery_Invoice_Validdata</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Emailsend</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplogics.testcases.Purchasemanagement_Menu</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Emailsend</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplogics.testcases.InvoiceJwellery_CheckboxDisable</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Emailsend</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplogics.testcases.Loginpage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Emailsend</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplogics.base.BaseData</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Emailsend</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplogics.testcases.InvoiceJewllery_Edit</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Emailsend</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplogics.testcases.InvoiceJwellery_Negative</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Emailsend</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplogics.testcases.Invalid_Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Emailsend</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplogics.testcases.Verifycheckbox_conditions</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Emailsend</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplogics.testcases.CreateJewllery_Invoice</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Emailsend</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplogics.testcases.Invalid_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidLogin(minni, Power123)</span>
+                <span class="method-start">14995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=InvalidLogin status=SUCCESS method=Invalid_Login.InvalidLogin(java.lang.String, jav...)</span>
+                <span class="method-start">26362 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplogics.testcases.Loginpage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setReport</span>
+                <span class="method-start">27446 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginpage(elmo_goh, -287854.0, Y)</span>
+                <span class="method-start">28010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginpage status=SUCCESS method=Loginpage.loginpage(java.lang.String, java.lang.Str...)</span>
+                <span class="method-start">53620 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplogics.testcases.Purchasemanagement_Menu</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setReport</span>
+                <span class="method-start">53764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Purchasemanagement_menu</span>
+                <span class="method-start">53863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Purchasemanagement_menu status=SUCCESS method=Purchasemanagement_Menu.Purchasemanag...)</span>
+                <span class="method-start">59561 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplogics.testcases.CreateJewllery_Invoice</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setReport</span>
+                <span class="method-start">59908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Createjewllery_Invoice(TestInvoiceg, Test_2, 25.0, 250.0, 12.25, 100.0, 100.0, 3.5)</span>
+                <span class="method-start">60048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60048 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Createjewllery_Invoice status=SUCCESS method=CreateJewllery_Invoice.Createjewllery_...)</span>
+                <span class="method-start">132556 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplogics.testcases.InvoiceJewllery_Edit</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setReport</span>
+                <span class="method-start">132690 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invoicejewllery_Edit</span>
+                <span class="method-start">132741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">132741 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invoicejewllery_Edit status=SUCCESS method=InvoiceJewllery_Edit.Invoicejewllery_Edi...)</span>
+                <span class="method-start">145497 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplogics.testcases.InvoiceJwellery_CheckboxDisable</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setReport</span>
+                <span class="method-start">145692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">145809 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invoicejwellery_CheckboxDisable(Testinvoicegtf, Test_2, 25.0, 250.0, 100.0, 100.0, 100.0, 3.0)</span>
+                <span class="method-start">145811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invoicejwellery_CheckboxDisable status=SUCCESS method=InvoiceJwellery_CheckboxDisab...)</span>
+                <span class="method-start">206730 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplogics.testcases.Verifycontents_Editpage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setReport</span>
+                <span class="method-start">206996 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyContents_Editpage</span>
+                <span class="method-start">207163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">207163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyContents_Editpage status=SUCCESS method=Verifycontents_Editpage.VerifyContent...)</span>
+                <span class="method-start">233813 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplogics.testcases.Verifycheckbox_conditions</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setReport</span>
+                <span class="method-start">234119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyCheckbox_conditions(Test1_Invoice04, Test_2, 25.0, 250.0, 100.0, 100.0, 100.0, 3.0)</span>
+                <span class="method-start">234349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">234349 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyCheckbox_conditions status=SUCCESS method=Verifycheckbox_conditions.VerifyChe...)</span>
+                <span class="method-start">289243 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplogics.testcases.InvoiceJwellery_Negative</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setReport</span>
+                <span class="method-start">289425 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Invoicejwellery_Negative(Testinvoicegu, Test_1, 25.0, 250.0, 100.0, -300.0, 100.0, 2.0)</span>
+                <span class="method-start">289513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">289513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Invoicejwellery_Negative status=SUCCESS method=InvoiceJwellery_Negative.Invoicejwel...)</span>
+                <span class="method-start">350041 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplogics.utilities.TestUtil</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">Emailsend</span>
+                <span class="method-start">350163 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="11" total="20" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-08T10:42:16Z" name="Default suite" finished-at="2021-06-08T10:48:17Z" duration-ms="360675">
+    <groups>
+    </groups>
+    <test started-at="2021-06-08T10:42:16Z" name="Default test" finished-at="2021-06-08T10:48:17Z" duration-ms="360675">
+      <class name="com.simplogics.utilities.TestUtil">
+        <test-method is-config="true" signature="Emailsend()[pri:0, instance:com.simplogics.utilities.TestUtil@6b00f608]" started-at="2021-06-08T16:18:06Z" name="Emailsend" finished-at="2021-06-08T16:18:17Z" duration-ms="10432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Emailsend -->
+      </class> <!-- com.simplogics.utilities.TestUtil -->
+      <class name="com.simplogics.testcases.Verifycontents_Editpage">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.Verifycontents_Editpage@35a9782c]" started-at="2021-06-08T16:15:43Z" name="setReport" finished-at="2021-06-08T16:15:43Z" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.Verifycontents_Editpage@35a9782c]" started-at="2021-06-08T16:15:43Z" name="setUp" finished-at="2021-06-08T16:15:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyContents_Editpage()[pri:7, instance:com.simplogics.testcases.Verifycontents_Editpage@35a9782c]" started-at="2021-06-08T16:15:43Z" name="VerifyContents_Editpage" finished-at="2021-06-08T16:16:10Z" duration-ms="26647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContents_Editpage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.Verifycontents_Editpage@35a9782c]" started-at="2021-06-08T16:16:10Z" name="tearDown" finished-at="2021-06-08T16:16:10Z" duration-ms="292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyContents_Editpage status=SUCCESS method=Verifycontents_Editpage.VerifyContents_Editpage()[pri:7, instance:com.simplogics.testcases.Verifycontents_Editpage@35a9782c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.Verifycontents_Editpage -->
+      <class name="com.simplogics.testcases.InvoiceJwellery_Negative">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.InvoiceJwellery_Negative@70a36a66]" started-at="2021-06-08T16:17:06Z" name="setReport" finished-at="2021-06-08T16:17:06Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method signature="Invoicejwellery_Negative(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.simplogics.testcases.InvoiceJwellery_Negative@70a36a66]" started-at="2021-06-08T16:17:06Z" name="Invoicejwellery_Negative" finished-at="2021-06-08T16:18:06Z" duration-ms="60515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testinvoicegu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test_1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[250.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[-300.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invoicejwellery_Negative -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.InvoiceJwellery_Negative@70a36a66]" started-at="2021-06-08T16:17:06Z" name="setUp" finished-at="2021-06-08T16:17:06Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.InvoiceJwellery_Negative@70a36a66]" started-at="2021-06-08T16:18:06Z" name="tearDown" finished-at="2021-06-08T16:18:06Z" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invoicejwellery_Negative status=SUCCESS method=InvoiceJwellery_Negative.Invoicejwellery_Negative(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.simplogics.testcases.InvoiceJwellery_Negative@70a36a66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.InvoiceJwellery_Negative -->
+      <class name="com.simplogics.testcases.Invalid_Login">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.Invalid_Login@64ba3208]" started-at="2021-06-08T16:12:16Z" name="setReport" finished-at="2021-06-08T16:12:17Z" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.Invalid_Login@64ba3208]" started-at="2021-06-08T16:12:17Z" name="setUp" finished-at="2021-06-08T16:12:31Z" duration-ms="14434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="InvalidLogin(java.lang.String, java.lang.String)[pri:1, instance:com.simplogics.testcases.Invalid_Login@64ba3208]" started-at="2021-06-08T16:12:31Z" name="InvalidLogin" data-provider="dp" finished-at="2021-06-08T16:12:43Z" duration-ms="11362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[minni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Power123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.Invalid_Login@64ba3208]" started-at="2021-06-08T16:12:43Z" name="tearDown" finished-at="2021-06-08T16:12:44Z" duration-ms="1074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=SUCCESS method=Invalid_Login.InvalidLogin(java.lang.String, java.lang.String)[pri:1, instance:com.simplogics.testcases.Invalid_Login@64ba3208] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.Invalid_Login -->
+      <class name="com.simplogics.testcases.InvoiceJwellery_CheckboxDisable">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.InvoiceJwellery_CheckboxDisable@45815ffc]" started-at="2021-06-08T16:14:42Z" name="setReport" finished-at="2021-06-08T16:14:42Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.InvoiceJwellery_CheckboxDisable@45815ffc]" started-at="2021-06-08T16:14:42Z" name="setUp" finished-at="2021-06-08T16:14:42Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Invoicejwellery_CheckboxDisable(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.simplogics.testcases.InvoiceJwellery_CheckboxDisable@45815ffc]" started-at="2021-06-08T16:14:42Z" name="Invoicejwellery_CheckboxDisable" finished-at="2021-06-08T16:15:43Z" duration-ms="60907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testinvoicegtf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[250.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invoicejwellery_CheckboxDisable -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.InvoiceJwellery_CheckboxDisable@45815ffc]" started-at="2021-06-08T16:15:43Z" name="tearDown" finished-at="2021-06-08T16:15:43Z" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invoicejwellery_CheckboxDisable status=SUCCESS method=InvoiceJwellery_CheckboxDisable.Invoicejwellery_CheckboxDisable(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.simplogics.testcases.InvoiceJwellery_CheckboxDisable@45815ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.InvoiceJwellery_CheckboxDisable -->
+      <class name="com.simplogics.testcases.Loginpage">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.Loginpage@732f29af]" started-at="2021-06-08T16:12:44Z" name="setReport" finished-at="2021-06-08T16:12:44Z" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.Loginpage@732f29af]" started-at="2021-06-08T16:12:44Z" name="setUp" finished-at="2021-06-08T16:12:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginpage(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.Loginpage@732f29af]" started-at="2021-06-08T16:12:44Z" name="loginpage" data-provider="dp" finished-at="2021-06-08T16:13:10Z" duration-ms="25606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elmo_goh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-287854.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.Loginpage@732f29af]" started-at="2021-06-08T16:13:10Z" name="tearDown" finished-at="2021-06-08T16:13:10Z" duration-ms="143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginpage status=SUCCESS method=Loginpage.loginpage(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.simplogics.testcases.Loginpage@732f29af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.Loginpage -->
+      <class name="com.simplogics.testcases.Verifycheckbox_conditions">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.Verifycheckbox_conditions@6622fc65]" started-at="2021-06-08T16:16:10Z" name="setReport" finished-at="2021-06-08T16:16:11Z" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.Verifycheckbox_conditions@6622fc65]" started-at="2021-06-08T16:16:11Z" name="setUp" finished-at="2021-06-08T16:16:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyCheckbox_conditions(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:com.simplogics.testcases.Verifycheckbox_conditions@6622fc65]" started-at="2021-06-08T16:16:11Z" name="VerifyCheckbox_conditions" finished-at="2021-06-08T16:17:05Z" duration-ms="54888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1_Invoice04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[250.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckbox_conditions -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.Verifycheckbox_conditions@6622fc65]" started-at="2021-06-08T16:17:05Z" name="tearDown" finished-at="2021-06-08T16:17:06Z" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCheckbox_conditions status=SUCCESS method=Verifycheckbox_conditions.VerifyCheckbox_conditions(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:com.simplogics.testcases.Verifycheckbox_conditions@6622fc65] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.Verifycheckbox_conditions -->
+      <class name="com.simplogics.testcases.Purchasemanagement_Menu">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.Purchasemanagement_Menu@d3957fe]" started-at="2021-06-08T16:13:10Z" name="setReport" finished-at="2021-06-08T16:13:10Z" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method signature="Purchasemanagement_menu()[pri:3, instance:com.simplogics.testcases.Purchasemanagement_Menu@d3957fe]" started-at="2021-06-08T16:13:10Z" name="Purchasemanagement_menu" finished-at="2021-06-08T16:13:16Z" duration-ms="5686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Purchasemanagement_menu -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.Purchasemanagement_Menu@d3957fe]" started-at="2021-06-08T16:13:10Z" name="setUp" finished-at="2021-06-08T16:13:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.Purchasemanagement_Menu@d3957fe]" started-at="2021-06-08T16:13:16Z" name="tearDown" finished-at="2021-06-08T16:13:16Z" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Purchasemanagement_menu status=SUCCESS method=Purchasemanagement_Menu.Purchasemanagement_menu()[pri:3, instance:com.simplogics.testcases.Purchasemanagement_Menu@d3957fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.Purchasemanagement_Menu -->
+      <class name="com.simplogics.testcases.InvoiceJewllery_Edit">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.InvoiceJewllery_Edit@299321e2]" started-at="2021-06-08T16:14:29Z" name="setReport" finished-at="2021-06-08T16:14:29Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.InvoiceJewllery_Edit@299321e2]" started-at="2021-06-08T16:14:29Z" name="setUp" finished-at="2021-06-08T16:14:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Invoicejewllery_Edit()[pri:5, instance:com.simplogics.testcases.InvoiceJewllery_Edit@299321e2]" started-at="2021-06-08T16:14:29Z" name="Invoicejewllery_Edit" finished-at="2021-06-08T16:14:42Z" duration-ms="12749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invoicejewllery_Edit -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.InvoiceJewllery_Edit@299321e2]" started-at="2021-06-08T16:14:42Z" name="tearDown" finished-at="2021-06-08T16:14:42Z" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invoicejewllery_Edit status=SUCCESS method=InvoiceJewllery_Edit.Invoicejewllery_Edit()[pri:5, instance:com.simplogics.testcases.InvoiceJewllery_Edit@299321e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.InvoiceJewllery_Edit -->
+      <class name="com.simplogics.testcases.CreateJewllery_Invoice">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.simplogics.testcases.CreateJewllery_Invoice@23fb172e]" started-at="2021-06-08T16:13:16Z" name="setReport" finished-at="2021-06-08T16:13:16Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplogics.testcases.CreateJewllery_Invoice@23fb172e]" started-at="2021-06-08T16:13:16Z" name="setUp" finished-at="2021-06-08T16:13:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Createjewllery_Invoice(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.simplogics.testcases.CreateJewllery_Invoice@23fb172e]" started-at="2021-06-08T16:13:16Z" name="Createjewllery_Invoice" finished-at="2021-06-08T16:14:29Z" duration-ms="72488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestInvoiceg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[250.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12.25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Createjewllery_Invoice -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.simplogics.testcases.CreateJewllery_Invoice@23fb172e]" started-at="2021-06-08T16:14:29Z" name="tearDown" finished-at="2021-06-08T16:14:29Z" duration-ms="132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Createjewllery_Invoice status=SUCCESS method=CreateJewllery_Invoice.Createjewllery_Invoice(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.simplogics.testcases.CreateJewllery_Invoice@23fb172e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.simplogics.testcases.CreateJewllery_Invoice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
